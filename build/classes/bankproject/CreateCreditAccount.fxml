@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bankproject.CreateCreditAccountController">
+   <children>
+      <Text layoutX="173.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Credit Account">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Button fx:id="accHomebtn" layoutX="486.0" layoutY="30.0" mnemonicParsing="false" onAction="#accHomeBtn" text="Back" />
+      <Text layoutX="162.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer Name" />
+      <Text layoutX="160.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Number" />
+      <Text layoutX="194.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount" />
+      <TextField fx:id="cust_name" layoutX="276.0" layoutY="129.0" prefHeight="25.0" prefWidth="194.0" promptText="Enter Customer Name" />
+      <TextField fx:id="acc_num" layoutX="276.0" layoutY="179.0" prefHeight="25.0" prefWidth="194.0" promptText="Enter account number" />
+      <TextField fx:id="bal_amount" layoutX="276.0" layoutY="230.0" prefHeight="25.0" prefWidth="194.0" promptText="Enter amount" />
+      <Button fx:id="crtcreditbtn" layoutX="273.0" layoutY="307.0" mnemonicParsing="false" onAction="#crtcreditBtn" text="Submit" />
+   </children>
+</AnchorPane>

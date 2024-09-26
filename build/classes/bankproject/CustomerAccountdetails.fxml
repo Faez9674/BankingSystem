@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bankproject.CustomerAccountdetailsController">
+   <children>
+      <Label layoutX="157.0" layoutY="34.0" text="Customer Account Details">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="134.0" text="Account Number:" />
+      <Label layoutX="148.0" layoutY="182.0" text="Account Type:" />
+      <Label layoutX="170.0" layoutY="230.0" text="Balance:" />
+      <Button fx:id="backHome" layoutX="490.0" layoutY="39.0" mnemonicParsing="false" onAction="#backhome" text="Back" />
+      <Label fx:id="accountnumber" layoutX="269.0" layoutY="134.0" text="No data found" />
+      <Label fx:id="accounttype" layoutX="269.0" layoutY="182.0" text="No data found" />
+      <Label fx:id="balance" layoutX="269.0" layoutY="230.0" text="No data found" />
+   </children>
+</AnchorPane>

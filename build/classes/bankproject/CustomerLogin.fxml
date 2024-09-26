@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bankproject.CustomerLoginController">
+   <children>
+      <Text layoutX="175.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CUSTOMER LOGIN">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="152.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="139.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="password" layoutX="262.0" layoutY="176.0" prefHeight="25.0" prefWidth="189.0" promptText="Enter Password" />
+      <TextField fx:id="user_id" layoutX="262.0" layoutY="126.0" prefHeight="25.0" prefWidth="189.0" promptText="Enter User ID" />
+      <Button fx:id="btnlogin1" layoutX="262.0" layoutY="251.0" mnemonicParsing="false" onAction="#custLogin1" prefHeight="25.0" prefWidth="88.0" text="Login" />
+      <Button fx:id="btnregistration1" layoutX="177.0" layoutY="311.0" mnemonicParsing="false" onAction="#custRegistration1" text="Registration" />
+      <Button fx:id="btnhome" layoutX="355.0" layoutY="311.0" mnemonicParsing="false" onAction="#goHome" prefHeight="25.0" prefWidth="80.0" text="Home" />
+   </children>
+</AnchorPane>

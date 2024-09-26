@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="344.0" prefWidth="477.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1" fx:controller="bankproject.HomeController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text layoutX="27.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOM TO BANKING SYSTEM">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn1" layoutX="126.0" layoutY="160.0" mnemonicParsing="false" onAction="#custLogin" text="Customer Login" />
+      <Button fx:id="btn2" layoutX="279.0" layoutY="160.0" mnemonicParsing="false" onAction="#adLogin" text="Admin Login" />
+    </children>
+</AnchorPane>

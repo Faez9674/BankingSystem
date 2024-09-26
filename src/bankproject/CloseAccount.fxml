@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1" fx:controller="bankproject.CloseAccountController">
+   <children>
+      <Label layoutX="221.0" layoutY="36.0" text="Close Account">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="140.0" layoutY="111.0" text="Account Number" />
+      <Label layoutX="188.0" layoutY="159.0" text="Reason" />
+      <Button fx:id="backHome" layoutX="479.0" layoutY="41.0" mnemonicParsing="false" onAction="#backhome" text="Back" />
+      <Button fx:id="closeBtn" layoutX="300.0" layoutY="330.0" mnemonicParsing="false" onAction="#closebtn" text="Close Account" />
+      <TextField fx:id="account_number" layoutX="268.0" layoutY="107.0" prefHeight="25.0" prefWidth="208.0" promptText="Enter Account Number" />
+      <TextArea fx:id="reason" layoutX="264.0" layoutY="153.0" prefHeight="149.0" prefWidth="218.0" promptText="Enter reason for closing account" />
+   </children>
+</AnchorPane>

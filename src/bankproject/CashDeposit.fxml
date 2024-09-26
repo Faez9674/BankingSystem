@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bankproject.CashDepositController">
+   <children>
+      <Label layoutX="169.0" layoutY="51.0" text="Cash Deposit/Withdraw">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="151.0" layoutY="124.0" text="Account Number" />
+      <Label layoutX="196.0" layoutY="182.0" text="Amount" />
+      <Button fx:id="backHome" layoutX="473.0" layoutY="56.0" mnemonicParsing="false" onAction="#backhome" text="Back" />
+      <Button fx:id="depositBtn" layoutX="278.0" layoutY="235.0" mnemonicParsing="false" onAction="#depositbtn" prefHeight="25.0" prefWidth="67.0" text="Deposit" />
+      <TextField fx:id="account_number" layoutX="271.0" layoutY="120.0" prefHeight="25.0" prefWidth="192.0" promptText="Enter Account Number" />
+      <TextField fx:id="amount" layoutX="271.0" layoutY="175.0" prefHeight="25.0" prefWidth="192.0" promptText="Enter Amount" />
+      <Button fx:id="withdrawBtn" layoutX="372.0" layoutY="235.0" mnemonicParsing="false" onAction="#withdrawbtn" text="Withdraw" />
+   </children>
+</AnchorPane>
